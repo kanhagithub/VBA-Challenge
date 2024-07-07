@@ -1,7 +1,12 @@
 # VBA scripting to analyze stock market data - Solution
 
 Script location - https://github.com/kanhagithub/VBA-Challenge/blob/main/Private%20Sub%20multiple_year_stock().vbs
-screeenshot - Quarter1 - 
+
+screeenshot - 
+Quarter1 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q1%20screenshot.png
+Quarter2 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q2%20screenshot.png
+Quarter3 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q3%20screenshot.png
+Quarter4 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q4%20screenshot.png
 
 Retrieval of Data 
 •	The script (https://github.com/kanhagithub/VBA-Challenge/blob/main/Private%20Sub%20multiple_year_stock().vbs) loops through one quarter of stock data and stores all the values from each row ticker, volume of stock, open price and close price.
