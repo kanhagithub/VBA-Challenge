@@ -1,7 +1,10 @@
 # VBA scripting to analyze stock market data - Solution
 
+Script location - https://github.com/kanhagithub/VBA-Challenge/blob/main/Private%20Sub%20multiple_year_stock().vbs
+screeenshot - Quarter1 - 
+
 Retrieval of Data 
-•	The script () loops through one quarter of stock data and stores all the values from each row ticker, volume of stock, open price and close price.
+•	The script (https://github.com/kanhagithub/VBA-Challenge/blob/main/Private%20Sub%20multiple_year_stock().vbs) loops through one quarter of stock data and stores all the values from each row ticker, volume of stock, open price and close price.
 Column Creation 
 The script loops through all the stocks data once and the following information is displayed.
 o	ticker: The script will sort the distinct ticker symbol in one column in column "I" with a column header "Ticker”.
