@@ -15,22 +15,19 @@ Quarter4 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q4%20screensho
 
 Retrieval of Data and calculation of quarterly change , % change and total stock volume 
 
-•	The script loops through one quarter of stock data and stores all the values from each row ticker, volume of stock, open price and close price.
-Column Creation 
 The script loops through all the stocks data once and the following information is displayed.
-   o ticker: The script will sort the distinct ticker symbol in one column in column "I" with a column header "Ticker”.
-   o Total stock volume: The total stock volume is also generated on "L" column. 
-   o	quarterly change: The script will execute quarterly change from opening price at the beginning of a given quarter to the closing price at the end of that 
+   o ticker: The script stores distinct ticker symbol in one column in column "I" with a column header "Ticker”.
+   o Total stock volume: The total stock volume is also generated on "L" column, this is done by adding "<vol>" column (G) values in loop for one ticker. 
+   o	quarterly change: The script finds quarterly change by deducting opening price at the beginning of a given quarter to the closing price at the end of that 
    quarter and put the value on "J" column. 
-   o percent change: The script also percent perform a change from opening price at the beginning of a given quarter to the closing price at the end of that 
-     quarter and put the value on "K" column.
+   o percent change: The script also calculates percentage change which is (quarterly change)/(opening price) and put the value on "K" column. Then this column is formatted to represent percentage. 
 
 Conditional Formatting 
-•	The script applied an IF Condition correctly and appropriately to the quarterly change. For this task the code added a conditional formatting that highlighted positive change in green and negative  change in red.
-Format the percentage change values to display correctly by using Numberformat in column "k".
+•	The script applies an IF Condition to the quarterly change column and that highlights positive change in green and negative change in red in column J. Also the script 
+Formats the percentage change values to display in percentage format by using Numberformat function in column "k".
   
 
 Calculated Values 
-•	Last, not least the solution also provide the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
+•	Lastly the solution also provide the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".For this we use a for loop to go through the previous dataset.To calculate the gretest increase and decrease  values the script applies an IF condition to the percent change, and stores which value is greater. To get the percentage format of "Greatest % increase", "Greatest % decrease" the script applies a Numberformat function in column "P2" and "P3".
 
 
