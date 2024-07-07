@@ -3,6 +3,7 @@
 Script location - https://github.com/kanhagithub/VBA-Challenge/blob/main/Private%20Sub%20multiple_year_stock().vbs
 
 screeenshot - 
+
 Quarter1 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q1%20screenshot.png
 
 Quarter2 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q2%20screenshot.png
@@ -12,7 +13,8 @@ Quarter3 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q3%20screensho
 Quarter4 - https://github.com/kanhagithub/VBA-Challenge/blob/main/Q4%20screenshot.png
 
 
-Retrieval of Data and 
+Retrieval of Data and calculation of quarterterly change , % change and total stock volume 
+
 •	The script loops through one quarter of stock data and stores all the values from each row ticker, volume of stock, open price and close price.
 Column Creation 
 The script loops through all the stocks data once and the following information is displayed.
